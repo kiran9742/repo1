@@ -5,11 +5,17 @@ git congfig --global user.name "venepalli Kiran"
 git config  --global user.email "vkiran8143@gmail.com"
 
 git config --list
+<<<<<<< HEAD
 ======
+=======
+
+=======
+>>>>>>> ecca723 (sample file added)
 git config --global --unset user.name
 git config --global --unset user.email
 
 
+<<<<<<< HEAD
 
 =======
 git config --global --unset user.name
@@ -18,6 +24,8 @@ git congfig --global user.name "venepalli Kiran"
 git config  --global user.email "vkiran8143@gmail.com"
 
 
+=======
+>>>>>>> ecca723 (sample file added)
 
 git config --global --unset user.name
 git config --global --unset user.email
@@ -28,9 +36,12 @@ touch fiel1 -----create file in work space
       file1 ------red color & untracked file--in workspae
 git status------
 
+<<<<<<< HEAD
 
 =======
 
+=======
+>>>>>>> ecca723 (sample file added)
 touch,cat,
 touch,cat,touch fiel1 -----create file in work space
       file1 ------red color & untracked file--in workspae
@@ -38,25 +49,35 @@ git status------
 
 =======
 
+<<<<<<< HEAD
 
 =======
 
 
+=======
+>>>>>>> ecca723 (sample file added)
 
 git add file1----move work space to staging
         file1 --green color & heading canges to commited
 *multiple files
 git add .
 git add *
+<<<<<<< HEAD
 gi add 
+=======
+gi add -A
+>>>>>>> ecca723 (sample file added)
+
+=======
+
+git status
+<<<<<<< HEAD
+
+=======
 
 =======
 
 git status
 
 =======
-
-=======
-
-git status
-
+>>>>>>> ecca723 (sample file added)
