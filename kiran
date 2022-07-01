@@ -1,0 +1,26 @@
+git init
+git congfig --global user.name "venepalli Kiran"
+git config  --global user.email "vkiran8143@gmail.com"
+
+git config --list
+
+git config --global --unset user.name
+git config --global --unset user.email
+
+****************************************
+touch,cat, 
+touch fiel1 -----create file in work space
+      file1 ------red color & untracked file--in workspae
+git status------
+touch,cat,
+touch fiel1 -----create file in work space
+      file1 ------red color & untracked file--in workspae
+git status------
+
+
+git add file1----move work space to staging
+        file1 --green color & heading canges to commited
+*multiple files
+git add .
+git add *
+gi add -A
